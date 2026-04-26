@@ -6,7 +6,7 @@ app.use(express.json());
 
 // 🔹 Supabase ayarları
 const SUPABASE_URL = "https://nwgermmkngkiqknpqnkk.supabase.co";
-const SUPABASE_KEY = "BURAYA_ANON_KEY"; // anon public
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im53Z2VybW1rbmdraXFrbnBxbmtrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcxNDI1MzYsImV4cCI6MjA5MjcxODUzNn0.PIEZZetCgFHCUcRiswgpjFzITAVgqRN4ViSPkRC5d1U"; // anon public
 
 app.post("/data", async (req, res) => {
   try {
